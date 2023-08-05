@@ -15,11 +15,30 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function returnLicenseLink(license) {
+  switch (license) {
+    case 'MIT':
+      return 'https://opensource.org/licenses/MIT';
+    case 'Apache-2.0':
+      return 'https://opensource.org/licenses/Apache-2.0';
+    case 'GPL-3.0':
+      return 'https://www.gnu.org/licenses/gpl-3.0';
+    default:
+      return '';
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function generateLicenseSection(license) {
+  const licenseLink = returnLicenseLink(license);
+  
+  if (licenseLink) {
+    return `## License\n\nThis project is licensed under the [${license} License](${licenseLink}).\n`;
+  } else {
+    return '';
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
@@ -31,3 +50,5 @@ ${answers.developerName}
 
 module.exports = generateMarkdown;
 module.exports = renderLicenseBadge;
+module.exports = returnLicenseLink;
+module.exports = generateLicenseSection;

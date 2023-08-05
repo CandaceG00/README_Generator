@@ -12,6 +12,7 @@ function renderLicenseBadge(license) {
       return '';
   }
 }
+renderLicenseBadge();
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -27,6 +28,7 @@ function returnLicenseLink(license) {
       return '';
   }
 }
+returnLicenseLink();
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -39,6 +41,7 @@ function generateLicenseSection(license) {
     return '';
   }
 }
+generateLicenseSection();
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
@@ -46,9 +49,7 @@ function generateMarkdown(answers) {
 ## Developer Name:
 ${answers.developerName}
 ## License: ${answers.license}`
-}
+};
 
 module.exports = generateMarkdown;
-module.exports = renderLicenseBadge;
-module.exports = returnLicenseLink;
-module.exports = generateLicenseSection;
+

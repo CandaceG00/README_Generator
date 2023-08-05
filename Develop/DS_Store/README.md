@@ -1,4 +1,4 @@
-# HITHERE
+# README Generator
 ## Developer Name:
-Sarah
+Candace
 ## License: MIT

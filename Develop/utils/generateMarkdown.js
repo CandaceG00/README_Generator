@@ -46,9 +46,15 @@ generateLicenseSection();
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
   return `# ${answers.projectName}
+  
 ## Developer Name:
 ${answers.developerName}
-## License: ${answers.license}`
+
+## License:
+${answers.license}
+
+## Usage:
+${answers.usage}`
 };
 
 module.exports = generateMarkdown;

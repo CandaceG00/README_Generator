@@ -20,6 +20,11 @@ const questions = [
         name: "license",
         message: "What is the project license?",
         choices: ["MIT", "Apache-2.0", "GPL-3.0"]
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "How will the project be used?"
     }
 ];
 

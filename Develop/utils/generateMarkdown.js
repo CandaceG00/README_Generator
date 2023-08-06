@@ -42,28 +42,31 @@ function generateLicenseSection(license) {
 function generateMarkdown(answers) {
   return `# ${answers.projectName}
 
-## Developer Name:
-${answers.developerName}
-
-## Description:
+## Description: <a name="description"></a>
 ${answers.description}
 
 ## Table of Contents:
+[description](#description)
 
 ## Installation:
+${answers.installation}
 
 ## Usage:
 ${answers.usage}
 
 ## License:
 ${answers.license}
-${renderLicenseBadge(answers.license)}
-${returnLicenseLink(answers.license)}
-${generateLicenseSection(answers.license)}
+${renderLicenseBadge(answers.license)},
 
 ## Contributing:
+${answers.contributing}
 
 ## Tests:
+${answers.tests}
+
+## Questions:
+Please feel free to reach out to me via my GitHub account: ${answers.githubUsername}, or via email at: ${answers.email}.
+
 `
 };
 

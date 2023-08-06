@@ -1,9 +1,14 @@
-# README Generator
+# dfg
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Developer Name:
-Candace
+dsfg
 
 ## License:
 MIT
 
+## Description:
+dsfg
+
 ## Usage:
-This project will be used to create a professional README through Node
+sdfg

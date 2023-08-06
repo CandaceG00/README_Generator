@@ -23,6 +23,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "description",
+        message: "Please provide the project description."
+    },
+    {
+        type: "input",
         name: "usage",
         message: "How will the project be used?"
     }

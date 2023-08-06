@@ -62,7 +62,7 @@ ${answers.usage}
 
 ## License: <a name="license"></a>
 ${answers.license}
-${renderLicenseBadge(answers.license)},
+${renderLicenseBadge(answers.license)}
 
 ## Contributing: <a name="contributing"></a>
 ${answers.contributing}

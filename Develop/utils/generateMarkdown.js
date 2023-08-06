@@ -47,24 +47,30 @@ ${answers.description}
 
 ## Table of Contents:
 [description](#description)
+[installation](#installation)
+[usage](#usage)
+[license](#license)
+[contributing](#contributing)
+[tests](#tests)
+[questions](#questions)
 
-## Installation:
+## Installation: <a name="installation"></a>
 ${answers.installation}
 
-## Usage:
-${answers.usage}
+## Usage: <a name="usage"></a>
+${answers.usage} 
 
-## License:
+## License: <a name="license"></a>
 ${answers.license}
 ${renderLicenseBadge(answers.license)},
 
-## Contributing:
+## Contributing: <a name="contributing"></a>
 ${answers.contributing}
 
-## Tests:
+## Tests: <a name="tests"></a>
 ${answers.tests}
 
-## Questions:
+## Questions: <a name="questions"></a>
 Please feel free to reach out to me via my GitHub account: ${answers.githubUsername}, or via email at: ${answers.email}.
 
 `

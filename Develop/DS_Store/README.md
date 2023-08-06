@@ -1,4 +1,4 @@
-# README
+# READ ME
 
 ## Description: <a name="description"></a>
 README
@@ -13,10 +13,10 @@ README
 [questions](#questions)
 
 ## Installation: <a name="installation"></a>
-Install node. Install inquirer
+Install Node
 
-## Usage: <a name="usage"></a>
-Create a README
+## Usage:
+Generate README <a name="usage"></a>
 
 ## License: <a name="license"></a>
 MIT
@@ -29,5 +29,5 @@ Me
 NA
 
 ## Questions: <a name="questions"></a>
-Please feel free to reach out to me via my GitHub account: candace, or via email at: cmgostinski00@gmail.com.
+Please feel free to reach out to me via my GitHub account: candace, or via email at: cmgostinski00.
 
